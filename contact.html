@@ -47,7 +47,42 @@
 						<td rowspan="3"><input type="submit" value="Send"/></td>
 					</tr>
 				</tbody>
-				</table>			
+				</table>
+
+
+				<form action="#" method="pget">
+					<label for="firstname">Name</label>
+					<input id="firstname" name="firstname">
+					<br>
+
+					<label for="em">Email</label>
+					<input type="email" id="em" name="email">
+					<br>
+
+					<label>How did you hear about us?</label>
+					<select name="info">
+						<option value="google">Google</option>
+						<option value="friends">Friends</option>
+						<option value="news">Newsletter</option>
+					</select>
+					<br>
+
+					<label>Would you visit us again?</label>
+					<input type="radio" name="visit" value="yes">Yes
+					<input type="radio" name="visit" value="no">No
+					<input type="radio" name="visit" value="maybe">Maybe
+					<br>
+
+					<label>Add Comments</label>
+					<textarea name="comments"></textarea>
+					<br>
+
+					<input type="checkbox">
+					<label>Sign me up for email updates.</label>
+					<br>
+					
+					<button type="submit">Submit</button>
+				</form>	
 
 		</main>
 
